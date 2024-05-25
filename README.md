@@ -1,4 +1,4 @@
-# WCA4Z JARP Wiki
+# Wiki
 
 [![Build Status]()
 
