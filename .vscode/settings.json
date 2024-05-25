@@ -1,0 +1,28 @@
+{
+  "markdownlint.config": {
+    "default": true,
+    "MD007": { "indent": 4 }
+  },
+  "markdown.extension.list.indentationSize": "inherit",
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+  },
+  "cSpell.words": [
+    "autohide",
+    "cheatsheet",
+    "fontawesome",
+    "javascripts",
+    "linebreak",
+    "magiclink",
+    "materialx",
+    "mkdocs",
+    "pymdownx",
+    "scottgigawatt",
+    "superfences",
+    "tablesort",
+    "tasklist",
+    "twemoji",
+    "venv"
+  ],
+}
