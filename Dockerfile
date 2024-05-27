@@ -7,6 +7,11 @@
 #
 
 #
+# Set a default image tag that can be overridden using build args
+#
+ARG MKDOCS_TAG=latest
+
+#
 # Use the specified version of the mkdocs-material image
 #
 FROM squidfunk/mkdocs-material:${MKDOCS_TAG}
