@@ -1,7 +1,5 @@
 # Wiki
 
-[![Build Status]()
-
 This is my wiki.
 
 - <https://pages.github.com/scottgigawatt/wiki/>
