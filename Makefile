@@ -137,7 +137,7 @@ $(HELP):
 	@echo "  $(HELP)            - Displays this help message."
 
 #
-# Alias for clean
+# Alias for down
 #
 $(CLEAN): $(DOWN)
 
