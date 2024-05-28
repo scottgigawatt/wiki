@@ -118,3 +118,5 @@ nav:
           - FAQ: general/mkdocs-faq.md
   - Synology Guides:
       - Direct Ethernet Config: synology-guides/direct-ethernet-config.md
+  - Hosting Guides:
+      - Hosting and Pool Maintenance: hosting/hosting_and_pool_maintenance.md
