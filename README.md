@@ -38,7 +38,7 @@ make start
 
 The local server will be running at <http://localhost:8800/scottgigawatt/wiki/>. You can access it in your browser. The server will live reload your changes as you edit files. If you're on macOS, you can use `make open` to open the site in your default browser automatically.
 
-### Managing the Project with DSM Container Manager
+## Managing the Project with DSM Container Manager
 
 To import this project into DSM 7.2 Container Manager's Project feature:
 
