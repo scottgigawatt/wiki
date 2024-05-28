@@ -52,4 +52,4 @@ services:
 
     # Mount host directories into the container
     volumes:
-      - ${PWD}:/docs:rw # Mount docs directory
+      - ${HOST_WIKI_PATH}:/docs:rw # Mount docs directory

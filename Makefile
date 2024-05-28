@@ -102,7 +102,7 @@ $(BUILD): $(BUILD_DEPENDS)
 #
 $(UP): $(BUILD_DEPENDS)
 	@echo "\nStarting service $(COMPOSE_SERVICE_NAME)"
-	docker-compose up $(COMPOSE_UP_OPTIONS)
+	HOST_WIKI_PATH=${PWD} docker-compose up $(COMPOSE_UP_OPTIONS)
 
 #
 # $(LOGS): View output from containers.
