@@ -38,6 +38,35 @@ make start
 
 The local server will be running at <http://localhost:8800/scottgigawatt/wiki/>. You can access it in your browser. The server will live reload your changes as you edit files. If you're on macOS, you can use `make open` to open the site in your default browser automatically.
 
+### Managing the Project with DSM Container Manager
+
+To import this project into DSM 7.2 Container Manager's Project feature:
+
+1. SSH into your Synology system.
+1. Clone this repository.
+1. In Container Manager, click **Project** then **Create**.
+1. Provide a title, e.g., **mkdocs-material**.
+1. Set the path to the cloned repository.
+1. Proceed through UI prompts to finish creating the project.
+
+Refer to the official Synology documentation [here](https://kb.synology.com/en-id/DSM/help/ContainerManager/docker_project?version=7) for more on Container Manager Projects.
+
+### Secure Access to Synology Applications
+
+Use DSM 7 Reverse Proxy to configure secure access to Synology applications. Follow the guide [here](https://mariushosting.com/synology-how-to-use-reverse-proxy-on-dsm-7/) for DSM 7.
+
+> **Note**: If you encounter "Socket closed" errors when accessing the DSM UI via reverse proxy and trying to open terminals for running containers, enable WebSocket for the reverse proxy record:
+>
+> 1. Go to `Control Panel -> Application Portal -> Reverse Proxy`.
+> 1. Select `Edit` for your reverse proxy record.
+> 1. Navigate to the `Custom Header` tab.
+> 1. From the `Create` dropdown, select `WebSocket`.
+> 1. Save the changes to resolve the issue.
+
+## Environment Details
+
+Tested on Synology DS916+ running DSM 7.2.1-69057 Update 5, with Docker Compose version v2.9.0-6413-g38f6acd.
+
 ## License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
