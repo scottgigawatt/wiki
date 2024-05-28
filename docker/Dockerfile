@@ -3,7 +3,9 @@
 #
 # This Dockerfile builds a custom Docker image based on the mkdocs-material image from Squidfunk.
 # It adds additional MkDocs plugins that are not included in the base image provided by Squidfunk.
-# For more details, refer to the official documentation: https://squidfunk.github.io/mkdocs-material/getting-started/?h=docker#with-docker
+#
+# For more details, refer to the official documentation:
+#  - https://squidfunk.github.io/mkdocs-material/getting-started/?h=docker#with-docker
 #
 
 #

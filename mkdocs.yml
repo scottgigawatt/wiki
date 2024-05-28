@@ -1,6 +1,6 @@
 ---
-site_name: Wiki
-site_description: Wiki
+site_name: Celestial Codex Wiki
+site_description: NAS setups, art, programming, and beyond.
 site_url: https://pages.github.com/scottgigawatt/wiki
 repo_url: https://github.com/scottgigawatt/wiki
 repo_name: scottgigawatt/wiki
@@ -68,7 +68,7 @@ plugins:
       repository: scottgigawatt/wiki
       branch: main
       enabled: !ENV [CI, true]
-      token: !ENV ["GITHUB_TOKEN"]
+      token: !ENV ["MKDOCS_GH_TOKEN"]
 
 markdown_extensions:
   - abbr
@@ -116,3 +116,5 @@ nav:
       - Using MkDocs:
           - Overview: general/mkdocs.md
           - FAQ: general/mkdocs-faq.md
+  - Synology Guides:
+      - Direct Ethernet Config: synology-guides/direct-ethernet-config.md
