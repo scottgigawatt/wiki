@@ -1,8 +1,0 @@
-yamllint
-mkdocs
-mkdocs-material
-mkdocs-material-extensions
-mkdocs-macros-plugin
-mkdocs-git-revision-date-plugin
-mkdocs-git-revision-date-localized-plugin
-mkdocs-git-committers-plugin-2

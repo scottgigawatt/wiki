@@ -1,4 +1,4 @@
-# Welcome to my Wiki 📚
+# :material-bookshelf: Welcome to my Wiki
 
 ## Introduction
 
