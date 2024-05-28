@@ -33,7 +33,7 @@ make start
 ```
 
 !!! info
-    The local server will be running at <http://localhost:8800/scottgigawatt/wiki/>. You can access it in your browser. The server will live reload your changes as you edit files. If you're on macOS, you can use `make open` to open the site in your default browser automatically.
+    The local server will be running at <http://localhost:8800/>. You can access it in your browser. The server will live reload your changes as you edit files. If you're on macOS, you can use `make open` to open the site in your default browser automatically.
 
 ## Tips and Tricks
 
