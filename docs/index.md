@@ -1,4 +1,4 @@
-# :material-bookshelf: Welcome to my Wiki
+# :material-bookshelf: Welcome to the Celestial Codex
 
 ## Introduction
 
