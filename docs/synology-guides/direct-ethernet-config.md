@@ -2,14 +2,14 @@
 
 To enable direct Ethernet-to-Ethernet connection between two Synology DSM NAS devices, follow these steps:
 
-## Configure Ethernet Connections
+## 🌐 Configure LAN Interfaces
 
 Ensure you have the correct Cat 6 or better Ethernet cables connecting the LAN2 ports of both NAS devices.
 
 - **NAS1 LAN2:** IP address 10.10.10.1, subnet mask 255.255.255.0, gateway 10.10.10.1
 - **NAS2 LAN2:** IP address 10.10.10.2, subnet mask 255.255.255.0, gateway 10.10.10.2
 
-## Enable Multiple Gateways
+## 🚪 Enable Multiple Gateways
 
 To route each network interface through their respective gateways:
 
@@ -20,7 +20,7 @@ To route each network interface through their respective gateways:
 
 This ensures routing for each network interface to go through their respective gateways.
 
-## Add Firewall Rules
+## 🔥 Add Firewall Rules
 
 Add a firewall rule to both NAS devices allowing access from the 10.10.10.0 subnet. As the connection is physically on one Ethernet cable between the two NAS devices, open all ports and services to avoid any man-in-the-middle concerns.
 
@@ -29,22 +29,22 @@ Add a firewall rule to both NAS devices allowing access from the 10.10.10.0 subn
 - You do NOT need to set up a static route.
 - You do NOT need to change the Network Interface Service Order.
 
-## Setting Up Rsync
+## 🔄 Setting Up Rsync
 
-### Enable Rsync Backup Service
+### 📁 Enable Rsync Service
 
 1. Navigate to **Control Panel** > **File Services** > **Rsync**.
 2. Check the **Enable Rsync service** box to set up the shared folder sync. The default port can be left as is.
 3. Both Synology NAS devices must have Rsync enabled.
 
-### Assign Rsync Privileges
+### 🔐 Assign Rsync Privileges
 
 1. Grant Rsync backup permissions by going to **Control Panel** > **Application Privileges** > **Rsync (Shared Folder Sync, LUN Backup on supported models)** > **Edit**.
 2. Assign privileges to the desired users or specify specific users' allowed IP addresses by clicking **Advanced Permissions** > **Advanced Shared Permissions**.
 
 Finally, give the user account Read/Write permissions.
 
-### Sync Files Between Devices
+### 🔄 Sync Files Between Devices
 
 1. Go to **Control Panel** > **File Services** > **Advanced** > **Task List**.
 2. Click **Create** and name the task.
@@ -53,4 +53,4 @@ Finally, give the user account Read/Write permissions.
 5. Change the schedule on which you want this task to run.
 6. Confirm the operations and click **Apply** for the folder to begin syncing.
 
-These steps enable you to synchronize files between Synology NAS devices efficiently using Rsync.
+These steps enable you to synchronize files between Synology NAS devices efficiently using Rsync. 🔄🔗

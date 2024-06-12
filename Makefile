@@ -5,7 +5,7 @@
 #
 
 #
-# Makefile targets
+# Makefile target names
 #
 ALL=all
 DOWN=down
@@ -17,36 +17,17 @@ LOGS=logs
 OPEN=open
 HELP=help
 START=start
+RUN=run
 
 #
-# Docker Compose service name
+# Docker Compose options
 #
-COMPOSE_SERVICE_NAME ?= mkdocs-material
-
-#
-# Docker Compose service down timeout
-#
-COMPOSE_DOWN_TIMEOUT ?= 30
-
-#
-# Docker Compose down options
-#
-COMPOSE_DOWN_OPTIONS ?= --timeout $(COMPOSE_DOWN_TIMEOUT) --rmi all --volumes
-
-#
-# Docker Compose build options
-#
+COMPOSE_SERVICE_NAME  ?= mkdocs-material
+COMPOSE_DOWN_TIMEOUT  ?= 30
+COMPOSE_DOWN_OPTIONS  ?= --timeout $(COMPOSE_DOWN_TIMEOUT) --rmi all --volumes
 COMPOSE_BUILD_OPTIONS ?= --pull --no-cache
-
-#
-# Docker Compose up options
-#
-COMPOSE_UP_OPTIONS ?= --build --force-recreate --pull always --detach
-
-#
-# Docker Compose logs options
-#
-COMPOSE_LOGS_OPTIONS ?= --follow
+COMPOSE_UP_OPTIONS    ?= --build --force-recreate --pull always --detach
+COMPOSE_LOGS_OPTIONS  ?= --follow
 
 #
 # Build dependencies
@@ -54,15 +35,20 @@ COMPOSE_LOGS_OPTIONS ?= --follow
 DEPENDENCIES=docker docker-compose
 
 #
+# Path to Dockerfile
+#
+DOCKERFILE := docker/Dockerfile
+
+#
 # Extract base FROM image from Dockerfile
 #
-FROM_IMAGE=$(shell awk '/^FROM / { print $$2 }' docker/Dockerfile | sed 's/:.*//' | head -n 1)
+FROM_IMAGE=$(shell awk '/^FROM / { print $$2 }' $(DOCKERFILE) | sed 's/:.*//' | head -n 1)
 
 #
 # Targets that are not files (i.e. never up-to-date); these will run every
 # time the target is called or required.
 #
-.PHONY: $(ALL) $(DOWN) $(CLEAN) $(BUILD_DEPENDS) $(BUILD) $(UP) $(LOGS) $(OPEN) $(HELP) $(START)
+.PHONY: $(ALL) $(DOWN) $(CLEAN) $(BUILD_DEPENDS) $(BUILD) $(UP) $(LOGS) $(OPEN) $(HELP) $(START) $(RUN)
 
 #
 # $(ALL): Default makefile target. Builds and starts the service stack.
@@ -83,10 +69,8 @@ $(DOWN): $(BUILD_DEPENDS)
 	@echo "\nStopping service $(COMPOSE_SERVICE_NAME)"
 	docker-compose down $(COMPOSE_DOWN_OPTIONS)
 
-	@for i in `docker images -aq "$(FROM_IMAGE)"`; do \
-		echo "Removing image $$i"; \
-		docker rmi -f "$$i" || true; \
-	done
+	@echo "\nRemoving images based on $(FROM_IMAGE)"
+	@docker images -q "$(FROM_IMAGE)" | xargs -r docker rmi -f || true
 
 #
 # $(BUILD): Builds the service stack.
@@ -134,6 +118,7 @@ $(HELP):
 	@echo "  $(START)           - Alias for $(UP)."
 	@echo "  $(LOGS)            - Shows logs for the service."
 	@echo "  $(OPEN)            - Opens the service site in the default web browser."
+	@echo "  $(RUN)             - Alias for $(UP), $(OPEN), $(LOGS)."
 	@echo "  $(HELP)            - Displays this help message."
 
 #
@@ -145,3 +130,10 @@ $(CLEAN): $(DOWN)
 # Alias for up
 #
 $(START): $(UP)
+
+#
+# $(RUN): Alias for up, open, logs
+#
+$(RUN): $(UP)
+	@$(MAKE) $(OPEN)
+	@$(MAKE) $(LOGS)
