@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<style>
+    .d-flex { display: flex; }
+    .cursor-pointer { cursor: pointer; }
+    .mx-0 { margin-left: 0; margin-right: 0; }
+    .px-0 { padding-left: 0; padding-right: 0; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .ml-auto { margin-left: auto; }
+    .mr-auto { margin-right: auto; }
+    .conteiner { display: flex; flex-flow: column; }
+    .conteiner-row { display: flex; flex-flow: row; }
+    .text-align-center { text-align: center; }
+    .text-white { color: #fff; }
+
+    /* Custom CSS for the gradient splash screen */
+    .splash-screen {
+        margin: 0;
+        padding: 0;
+        min-height: calc(100vh - 64px); /* Adjust for the height of the header */
+        background: linear-gradient(to bottom, #273469, #F15A24, #FF0000, #FF4D8E); /* Space-themed gradient */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .splash-container {
+        padding: 20px;
+        width: 100%;
+        max-width: 1200px; /* Adjust max width as needed */
+        box-sizing: border-box;
+    }
+    .logo {
+        max-width: 200px; /* Adjust the size of your custom site logo */
+        margin-bottom: 20px;
+    }
+    .welcome-message {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .content {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    /* Hide the side navigation and table of contents for the splash screen */
+    .md-sidebar--primary, .md-sidebar--secondary, .md-content__inner .md-nav--secondary {
+        display: none;
+    }
+    .md-content {
+        margin: 0;
+        width: 100%;
+    }
+    .w-100 { width: 100%; }
+    .md-main { padding: 0; }
+
+    /* Additional CSS for full-width splash screen */
+    .no-padding {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* Media queries for responsive design */
+    @media (min-width: 1220px) {
+        .conteiner-row-lg { display: flex; flex-flow: row; }
+        .d-xl-none { display: none; }
+        .pt-lg-5 { padding-top: 3rem; }
+        .my-xl-5 { margin-top: 3rem; margin-bottom: 3rem; }
+        .mx-xl-auto { margin-left: auto; margin-right: auto; }
+        .mx-xl-0 { margin-left: 0; margin-right: 0; }
+        .text-end-xl { text-align: end; }
+        .text-start-xl { text-align: start; }
+        .btn-xl-large:hover { font-size: 22px; padding: 15px 50px; }
+    }
+
+    @media (min-width: 960px) and (max-width: 1219px) {
+        .conteiner-row-xl { display: flex; flex-flow: row; }
+        .d-lg-none { display: none; }
+        .d-xl { display: none; }
+        .pt-lg-5 { padding-top: 3rem; }
+        .my-lg-5 { margin-top: 3rem; margin-bottom: 3rem; }
+        .mx-lg-0 { margin-left: 0; margin-right: 0; }
+        .mx-lg-5 { margin-left: 3rem; margin-right: 3rem; }
+        .ctx-card-white-1 { flex: 100%; }
+        .text-end-lg { text-align: end; }
+        .text-start-lg { text-align: start; }
+        .btn-xl-large:hover { font-size: 22px; padding: 15px 50px; }
+    }
+
+    @media (min-width: 720px) and (max-width: 959px) {
+        .d-md-none { display: none; }
+        .d-xl { display: none; }
+        .d-lg { display: none; }
+        .my-md-5 { margin-top: 3rem; margin-bottom: 3rem; }
+        .mx-md-auto { margin-left: auto; margin-right: auto; }
+        .ctx-header-text { flex: 100%; }
+    }
+
+    @media (min-width: 540px) and (max-width: 719px) {
+        .d-sm-none { display: none; }
+        .d-xl { display: none; }
+        .d-lg { display: none; }
+        .d-md { display: none; }
+        .mx-sm-auto { margin-left: auto; margin-right: auto; }
+        .my-sm-5 { margin-top: 3rem; margin-bottom: 3rem; }
+    }
+
+    @media (min-width: 300px) and (max-width: 539px) {
+        .d-xs-none { display: none; }
+        .d-xl { display: none; }
+        .d-lg { display: none; }
+        .d-md { display: none; }
+        .d-sm { display: none; }
+        .text-xs-center { text-align: center; }
+        .h1 { font-size: 2.2rem; }
+        .leverage-title-logo { margin-bottom: -5px; }
+        .conteiner-xs { display: flex; flex-flow: column; }
+        .mx-xs-auto { margin-left: auto; margin-right: auto; }
+        .my-xs-5 { margin-top: 3rem; margin-bottom: 3rem; }
+    }
+</style>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "overrides/main-styles.html" %}
+
+{% block tabs %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<div class="splash-screen no-padding">
+    <div class="splash-container">
+        <img src="assets/images/logos/logo-black-hole-dark.svg" alt="Your Site Logo" class="logo">
+        <h1 class="welcome-message">Welcome to Your Site!</h1>
+        <div class="content">
+            {{ page.content }}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}{% endblock %}
