@@ -9,8 +9,8 @@ copyright: Copyright &copy; 2024 Scott Gigawatt
 
 theme:
   name: material
-  logo_dark_mode: assets/images/logos/logo-black-hole-dark.svg
-  logo_light_mode: assets/images/logos/logo-black-hole-dark.svg
+  logo_dark_mode: assets/images/logos/logo-dark-mode.svg
+  logo_light_mode: assets/images/logos/logo-light-mode.svg
   favicon: assets/images/logos/favicon.svg
   icon:
     repo: fontawesome/brands/git-alt
@@ -131,8 +131,11 @@ nav:
           - mkdocs/index.md
           - FAQ: mkdocs/mkdocs-faq.md
   - Reference:
-      - Direct Ethernet Config: synology-guides/direct-ethernet-config.md
+      - reference/index.md
+      - Synology:
+          - Direct Ethernet Config: reference/synology/direct-ethernet-config.md
   - GitHub:
-      - Overview: github/projects.md
+      - github/index.md
+      - Projects: github/projects.md
   - Hosting:
       - Hosting and Pool Maintenance: hosting/hosting_and_pool_maintenance.md

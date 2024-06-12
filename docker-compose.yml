@@ -1,3 +1,4 @@
+---
 #
 # docker-compose.yml: This wiki contains a Docker Compose configuration tailored for Synology NAS environments.
 #
@@ -6,8 +7,6 @@
 #
 # For more information about Material for MkDocs, visit: https://squidfunk.github.io/mkdocs-material/
 #
-
----
 
 #
 # Docker Compose version on the target system
