@@ -130,7 +130,9 @@ nav:
           - mkdocs/index.md
           - FAQ: mkdocs/mkdocs-faq.md
   - Reference:
-      - Direct Ethernet Config: synology-guides/direct-ethernet-config.md
+      - reference/index.md
+      - Synology:
+          - Direct Ethernet Config: reference/synology/direct-ethernet-config.md
   - GitHub:
       - github/index.md
       - Projects: github/projects.md
