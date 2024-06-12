@@ -9,6 +9,8 @@
 # For more information about Material for MkDocs, visit: https://squidfunk.github.io/mkdocs-material/
 #
 
+---
+
 #
 # Docker Compose version on the target system
 #
@@ -23,16 +25,18 @@ services:
   #
   mkdocs-material:
     # Docker image build and container information
-    image: ${MKDOCS_IMAGE}:${MKDOCS_TAG}          # Set build image name and tag
-    build:                                        # Build to install additional plugins
-      context: docker                             # Docker build context
-      dockerfile: Dockerfile                      # Dockerfile to use for the build
-      args:                                       # Build arguments passed to Dockerfile
-        MKDOCS_TAG: ${MKDOCS_TAG}                 # Specify FROM base image tag as a build argument
-    container_name: mkdocs-material-${MKDOCS_TAG} # Append Docker image tag to container name
-    restart: unless-stopped                       # Restart the container unless explicitly stopped
-    network_mode: bridge                          # Use the default bridge network
-    hostname: mkdocs-material                     # Set the container hostname
+    image: ${MKDOCS_IMAGE}:${MKDOCS_TAG}              # Set build image name and tag
+    build:                                            # Build to install additional plugins
+      context: docker                                 # Docker build context
+      dockerfile: Dockerfile                          # Dockerfile to use for the build
+      args:                                           # Build arguments passed to Dockerfile
+        MKDOCS_TAG: ${MKDOCS_TAG}                     # Specify FROM base image tag as a build argument
+    container_name: mkdocs-material-${MKDOCS_TAG}     # Append Docker image tag to container name
+    restart: unless-stopped                           # Restart the container unless explicitly stopped
+    network_mode: bridge                              # Use the default bridge network
+    hostname: mkdocs-material                         # Set the container hostname
+    labels:                                           # Add container labels
+      - "com.centurylinklabs.watchtower.enable=false" # Exclude from Watchtower as this image is local
 
     # Define resource limits
     mem_limit: ${MKDOCS_MEM_LIMIT}
