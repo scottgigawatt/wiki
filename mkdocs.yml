@@ -116,6 +116,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/scottgigawatt/wiki
       name: 🌟✨ Celestial Codex 📚✨
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/repositories/scottgigawatt
+      name: ⚡️ Scott Gigawatt
     - icon: fontawesome/brands/discord
       link: https://discord.gg/b8kyRaFZJr
       name: ✨ASTERES✨
