@@ -9,8 +9,8 @@ copyright: Copyright &copy; 2024 Scott Gigawatt
 
 theme:
   name: material
-  logo_dark_mode: assets/images/logos/logo-black-hole-dark.svg
-  logo_light_mode: assets/images/logos/logo-black-hole-dark.svg
+  logo_dark_mode: assets/images/logos/logo-dark-mode.svg
+  logo_light_mode: assets/images/logos/logo-light-mode.svg
   favicon: assets/images/logos/favicon.svg
   icon:
     repo: fontawesome/brands/git-alt
