@@ -1,10 +1,11 @@
 ---
-site_name: Celestial Codex Wiki
+site_name: Celestial Codex
 site_description: NAS setups, art, programming, and beyond.
 site_url: https://pages.github.com/
 repo_url: https://github.com/scottgigawatt/wiki
 repo_name: scottgigawatt/wiki
 edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2024 Scott Gigawatt
 
 theme:
   name: material
@@ -13,8 +14,8 @@ theme:
   favicon: assets/favicon.svg
   icon:
     repo: fontawesome/brands/git-alt
-    edit: material/pencil
-    view: material/eye
+    # edit: material/pencil
+    # view: material/eye
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -36,24 +37,29 @@ theme:
     - search.share
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.indexes
     - navigation.instant
     - navigation.tracking
     - navigation.top
     - navigation.sections
     - navigation.expand
+    - navigation.footer
     - toc.follow
     # - toc.integrate
     - content.action.edit
+    - content.action.view
     - content.code.annotate
+    - content.code.copy
+    - content.code.select
     # - header.autohide
   custom_dir: overrides
 
 extra_css:
   - assets/stylesheets/extra.css
 
-# extra_javascript:
-#   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-#   - assets/javascripts/tablesort.js
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - assets/javascripts/tablesort.js
 
 plugins:
   - search
@@ -74,48 +80,52 @@ markdown_extensions:
   - abbr
   - admonition
   - def_list
+  - tables
+  - toc:
+      permalink: true
+      separator: "-"
+  - footnotes
+  - pymdownx.magiclink
+  - attr_list
+  - md_in_html
+  - meta
   - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
           - docs/assets/icons
-  - pymdownx.details
-  - tables
-  - toc:
-      permalink: true
-      separator: "-"
   - pymdownx.highlight
+  - pymdownx.keys
+  - pymdownx.mark
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - footnotes
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.magiclink
-  - attr_list
-  - md_in_html
-  - meta
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/scottgigawatt/wiki
-      name: Wiki
+      name: 🌟✨ Celestial Codex 📚✨
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/b8kyRaFZJr
+      name: ✨ASTERES✨
 
 nav:
-  - General Topics:
-      - About: index.md
+  - Home:
+      - index.md
       - Using MkDocs:
-          - Overview: general/mkdocs.md
-          - FAQ: general/mkdocs-faq.md
+          - mkdocs/index.md
+          - FAQ: mkdocs/mkdocs-faq.md
   - Synology Guides:
       - Direct Ethernet Config: synology-guides/direct-ethernet-config.md
   - Hosting Guides:

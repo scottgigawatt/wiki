@@ -12,6 +12,7 @@
     "ASTERES",
     "autohide",
     "cheatsheet",
+    "Floaties",
     "fontawesome",
     "javascripts",
     "linebreak",
@@ -20,11 +21,13 @@
     "mkdocs",
     "Nemah",
     "pymdownx",
+    "rosé",
     "scottgigawatt",
     "superfences",
     "tablesort",
     "tasklist",
     "twemoji",
-    "venv"
-  ],
+    "venv",
+    "Weruva"
+],
 }
