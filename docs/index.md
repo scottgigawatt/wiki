@@ -6,4 +6,4 @@ title: Celestial Codex
 #     title: Documentation that simply works
 ---
 
-Hello, welcome to my lair
+Welcome to my lair!

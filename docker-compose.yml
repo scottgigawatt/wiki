@@ -1,7 +1,5 @@
 #
-# docker-compose.yml: Docker Utilities for Plex (Duplex) contains a Docker Compose
-# configuration tailored for a Synology NAS environments, simplifying the setup process
-# for managing Plex Media Server by integrating several useful tools and utilities.
+# docker-compose.yml: This wiki contains a Docker Compose configuration tailored for Synology NAS environments.
 #
 # Tools Included:
 #   - Material for MkDocs: Generates static documentation from Markdown files with Material theme.

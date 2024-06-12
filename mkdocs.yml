@@ -115,7 +115,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/scottgigawatt/wiki
-      name: 📚 Wiki
+      name: 🌟✨ Celestial Codex 📚✨
     - icon: fontawesome/brands/docker
       link: https://hub.docker.com/repositories/scottgigawatt
       name: ⚡️ Scott Gigawatt
@@ -126,10 +126,10 @@ extra:
 nav:
   - Home: index.md
   - Getting started:
-      - Welcome: general/index.md
+      - general/index.md
       - Using MkDocs:
-          - Overview: general/mkdocs.md
-          - FAQ: general/mkdocs-faq.md
+          - mkdocs/index.md
+          - FAQ: mkdocs/mkdocs-faq.md
   - Reference:
       - Direct Ethernet Config: synology-guides/direct-ethernet-config.md
   - GitHub:
