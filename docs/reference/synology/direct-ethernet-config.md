@@ -24,10 +24,9 @@ This ensures routing for each network interface to go through their respective g
 
 Add a firewall rule to both NAS devices allowing access from the 10.10.10.0 subnet. As the connection is physically on one Ethernet cable between the two NAS devices, open all ports and services to avoid any man-in-the-middle concerns.
 
-**Note:**
-
-- You do NOT need to set up a static route.
-- You do NOT need to change the Network Interface Service Order.
+!!! note
+    - You do NOT need to set up a static route.
+    - You do NOT need to change the Network Interface Service Order.
 
 ## 🔄 Setting Up Rsync
 
