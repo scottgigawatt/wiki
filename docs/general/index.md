@@ -1,7 +1,7 @@
 ---
 title: Welcome to the Celestial Codex
 description: Embark on a Journey of Knowledge and Discovery
-icon: material/bookshelf
+icon: fontawesome/solid/rocket
 ---
 
 ## Introduction
