@@ -4,11 +4,11 @@ description: The ultimate guide to house sitting.
 icon: fontawesome/solid/water-ladder
 ---
 
-## 🌴 Rules & Regulations 🌴
+## 🌴 Rules & Regulations
 
 Hey there, fabulous house sitters! 🏠✨ We're thrilled you're here to hold down the fort and splash around in our little slice of paradise. Here's your ultimate guide to keeping things chic, safe, and sassy while you enjoy our home and pool. Let's dive in! 💦
 
-## Poolside Etiquette 🌊💅
+## 🌊 Poolside Etiquette
 
 1. **Safety First, Darling!**
     - No running, diving, or channeling your inner Olympian gymnast. The pool is for floating and fabulousness, not trips to the ER. 💁‍♀️🚫
@@ -23,7 +23,7 @@ Hey there, fabulous house sitters! 🏠✨ We're thrilled you're here to hold do
     - Check the pool chemicals once a week. Chlorine and pH levels need to be just right for that perfect Instagram-worthy swim. If you're unsure, consult the pool manual - it's like a beauty regimen for the water. 🧪💧
     - Shock the pool once a week during the peak heat season 🥵. Two gallons of shock in the evening and let her simmer overnight, undisturbed. 💧🌙⏳
 
-## House Rules 🏠🎉
+## 🏠 House Rules
 
 1. **Feed the Felines**
     - Our cats are divas and demand timely room service.
@@ -36,7 +36,7 @@ Hey there, fabulous house sitters! 🏠✨ We're thrilled you're here to hold do
     - **Special Mission**: If you spot poison ivy, remove it with care. Gloves are your new best friends here, plastic bags for additional protection can be found in the main room utility closet where outdoor kitty food is. We appreciate the extra love! 💚🧤
     - If it's extra hot, please water the tender seedlings! They could use all the love they can get as they get established in the tiered garden beds 🌱🌻
 
-## Fun & Frivolous Guidelines 🎈
+## 🎈 Fun & Frivolous Guidelines
 
 1. **Floaties and Fun**
     - Inflatable unicorns, flamingos, and doughnuts are encouraged. A pool party isn't complete without whimsical flotation devices. 🦄🍩
@@ -52,7 +52,7 @@ Hey there, fabulous house sitters! 🏠✨ We're thrilled you're here to hold do
     - Stylish swimwear is a must. Feel free to raid our stash if you didn't bring your own. Life's too short for boring swimsuits. 🩱🌞
     - **S P F!!** Keep that skin gorgeous and melanoma-free! Find extra sunscreen and towels in the hallway closet upstairs. 🧴🧁☀️
 
-## Serious Business 💼
+## 💼 Serious Business
 
 1. **Emergency Contacts**
     - Our contact info is on the fridge. In case of an emergency, don't hesitate to reach out. We trust you, but just in case, know we've got your back.
