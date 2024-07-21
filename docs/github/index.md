@@ -1,4 +1,8 @@
-# Welcome to My GitHub Hub
+---
+title: Welcome to My GitHub Hub
+description: Access reference information and guides to stay up-to-date on everything!
+icon: fontawesome/brands/github
+---
 
 Hello there, fabulous coders and curious minds! 🌟
 

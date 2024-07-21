@@ -1,4 +1,8 @@
-# :material-frequently-asked-questions: FAQ — MkDocs
+---
+title: FAQ — MkDocs
+description: Answers to frequently asked MkDocs questions.
+icon: material/frequently-asked-questions
+---
 
 Here's a collection of Frequently Asked Questions regarding MkDocs.
 

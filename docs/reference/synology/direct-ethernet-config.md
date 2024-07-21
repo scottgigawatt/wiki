@@ -1,4 +1,8 @@
-# :material-ethernet: Direct Connect Two Synology Devices
+---
+title: Direct Connect Synology Devices
+description: A step-by-step guide to enable direct Ethernet-to-Ethernet connection between Synology DSM NAS devices.
+icon: material/ethernet
+---
 
 To enable direct Ethernet-to-Ethernet connection between two Synology DSM NAS devices, follow these steps:
 

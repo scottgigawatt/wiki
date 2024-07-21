@@ -1,4 +1,8 @@
-# Welcome to the Reference Hub
+---
+title: Welcome to the Reference Hub
+description: Access reference information and guides to stay up-to-date on everything!
+icon: material/information-slab-circle
+---
 
 Hey there, knowledge seekers and tech enthusiasts! 📚✨
 

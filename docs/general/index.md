@@ -1,4 +1,8 @@
-# :material-bookshelf: Welcome to the Celestial Codex
+---
+title: Welcome to the Celestial Codex
+description: Embark on a Journey of Knowledge and Discovery
+icon: material/bookshelf
+---
 
 ## Introduction
 

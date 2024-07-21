@@ -1,42 +1,70 @@
 ---
 site_name: Celestial Codex
 site_description: "Celestial Codex: where wisdom shines like stars"
+
+# Project information
 site_url: https://pages.github.com/
-repo_url: https://github.com/scottgigawatt/wiki
-repo_name: scottgigawatt/wiki
-edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2024 Scott Gigawatt
+
+# Repository
+repo_name: scottgigawatt/wiki
+repo_url: https://github.com/scottgigawatt/wiki
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - general/index.md
+      - Using MkDocs:
+          - mkdocs/index.md
+          - FAQ: mkdocs/faq.md
+  - Reference:
+      - reference/index.md
+      - Synology:
+          - Direct Ethernet Config: reference/synology/direct-ethernet-config.md
+  - GitHub:
+      - github/index.md
+      - Projects: github/projects.md
+  - Hosting:
+      - hosting/index.md
+      - Ultimate House Sitting Guide: hosting/ultimate-house-sitting-guide.md
 
 theme:
   name: material
-  logo_dark_mode: assets/images/logos/logo-dark-mode.svg
-  logo_light_mode: assets/images/logos/logo-light-mode.svg
+  custom_dir: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  logo: assets/images/banners/banner_light_2.png
   favicon: assets/images/logos/favicon.svg
   icon:
     repo: fontawesome/brands/git-alt
     # edit: material/pencil
     # view: material/eye
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: deep orange
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: blue grey
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode
+
   features:
     - search.suggest
     - search.highlight
     - search.share
     - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs.sticky
     - navigation.indexes
     - navigation.instant
     - navigation.tracking
@@ -52,7 +80,6 @@ theme:
     - content.code.copy
     - content.code.select
     # - header.autohide
-  custom_dir: material
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -113,29 +140,12 @@ markdown_extensions:
 
 extra:
   social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/b8kyRaFZJr
+      name: ✨ASTERES✨
     - icon: fontawesome/brands/github
       link: https://github.com/scottgigawatt/wiki
       name: 🌟✨ Celestial Codex 📚✨
     - icon: fontawesome/brands/docker
       link: https://hub.docker.com/repositories/scottgigawatt
       name: ⚡️ Scott Gigawatt
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/b8kyRaFZJr
-      name: ✨ASTERES✨
-
-nav:
-  - Home: index.md
-  - Getting started:
-      - general/index.md
-      - Using MkDocs:
-          - mkdocs/index.md
-          - FAQ: mkdocs/mkdocs-faq.md
-  - Reference:
-      - reference/index.md
-      - Synology:
-          - Direct Ethernet Config: reference/synology/direct-ethernet-config.md
-  - GitHub:
-      - github/index.md
-      - Projects: github/projects.md
-  - Hosting:
-      - Hosting and Pool Maintenance: hosting/hosting_and_pool_maintenance.md

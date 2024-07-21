@@ -1,4 +1,8 @@
-# :material-code-block-braces: GitHub Projects
+---
+title: GitHub Projects
+description: Information and links for all of my GitHub projects!
+icon: material/code-block-braces
+---
 
 Welcome to my GitHub projects wiki! Here you'll find a collection of my projects, each aimed at bringing something unique and exciting to the table. From managing your Synology NAS to exploring the infinite complexity of fractals, there's something here for everyone. 🌟
 

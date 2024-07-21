@@ -1,4 +1,8 @@
-# :material-human-male-board-poll: MkDocs Guidance
+---
+title: MkDocs Guidance
+description: Guidance for using MkDocs and the MkDocs Material theme.
+icon: material/human-male-board-poll
+---
 
 [MkDocs](https://www.mkdocs.org/) is a static site generator that converts Markdown documents into HTML, hosted using [GitHub Pages](https://pages.github.com/). We use the [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material/) for additional styling and usability features.
 

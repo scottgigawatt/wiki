@@ -1,4 +1,8 @@
-# :material-pool: Hosting and Pool Maintenance
+---
+title: Ultimate House Sitting Guide
+description: The ultimate guide to house sitting.
+icon: fontawesome/solid/water-ladder
+---
 
 ## 🌴 Rules & Regulations 🌴
 
