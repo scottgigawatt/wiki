@@ -27,7 +27,7 @@ Keep an eye on this space for updates, new projects, and improvements. The world
 
 Feel like contributing? Have an idea or suggestion? Open an issue in the respective repository or reach out directly on Discord! 💬✨
 
-[Join our Discord server!](https://discord.gg/b8kyRaFZJr) 🎉
+[Join our Discord server!](mailto:scottgigawatt@gmail.com) 🎉
 
 Happy coding! 🚀
 

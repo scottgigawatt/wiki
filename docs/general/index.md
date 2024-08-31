@@ -17,7 +17,7 @@ This wiki will serve as a comprehensive resource for:
 
 ## 💬 Join the Conversation
 
-Join our Discord server [✨ASTERES✨](https://discord.gg/b8kyRaFZJr) to connect with like-minded individuals and engage in discussions about:
+Join our Discord server [✨ASTERES✨](mailto:scottgigawatt@gmail.com) to connect with like-minded individuals and engage in discussions about:
 
 - Git projects
 - Synology NAS configurations

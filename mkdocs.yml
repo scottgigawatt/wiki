@@ -22,6 +22,8 @@ nav:
       - reference/index.md
       - Synology:
           - Direct Ethernet Config: reference/synology/direct-ethernet-config.md
+          - Entware Setup: reference/synology/entware-setup.md
+          - Homebridge Setup: reference/synology/entware-setup.md
   - GitHub:
       - github/index.md
       - Projects: github/projects.md
@@ -141,7 +143,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/b8kyRaFZJr
+      link: mailto:scottgigawatt@gmail.com
       name: ✨ASTERES✨
     - icon: fontawesome/brands/github
       link: https://github.com/scottgigawatt/wiki
