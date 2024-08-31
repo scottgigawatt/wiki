@@ -23,7 +23,7 @@ nav:
       - Synology:
           - Direct Ethernet Config: reference/synology/direct-ethernet-config.md
           - Entware Setup: reference/synology/entware-setup.md
-          - Homebridge Setup: reference/synology/entware-setup.md
+          - Homebridge Setup: reference/synology/homebridge-setup.md
   - GitHub:
       - github/index.md
       - Projects: github/projects.md
