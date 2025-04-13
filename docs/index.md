@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Where wisdom shines like stars.
+description: ☄️🧠 Intergalactic intel, space dust, and dangerously nerdy star charts inside 🚀📡
 icon: material/home
 hide:
   - navigation

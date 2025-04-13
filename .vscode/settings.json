@@ -41,4 +41,5 @@
     "venv",
     "Weruva"
 ],
+"makefile.configureOnOpen": false,
 }
