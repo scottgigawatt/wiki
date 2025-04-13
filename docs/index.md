@@ -16,7 +16,7 @@ hide:
 
 <img src="assets/images/banners/banner_light_3.png" alt="celestial codex" style="max-width: 100%; max-height: 175px; margin: 0 auto; display: block;" />
 
-<p style="margin: 5px 0 0;" align="center">Discover the universe of knowledge.</p>
+<p style="margin: 5px 0 0;" align="center">☄️🧠 Intergalactic intel, space dust, and dangerously nerdy star charts inside 🚀📡</p>
 
 </div>
 
