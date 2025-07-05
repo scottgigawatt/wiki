@@ -65,7 +65,7 @@ Use DSM 7 Reverse Proxy to configure secure access to Synology applications. Fol
 
 ## Environment Details
 
-Tested on Synology DS916+ running DSM 7.2, with Docker Compose version v2.9.
+Tested on Synology DS916+ running DSM 7.2, with Docker Compose version v2.20.
 
 ## License
 

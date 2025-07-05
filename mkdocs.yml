@@ -26,7 +26,22 @@ nav:
           - Homebridge Setup: reference/synology/homebridge-setup.md
   - GitHub:
       - github/index.md
-      - Projects: github/projects.md
+      - Projects:
+          - github/projects.md
+          - github/boudoirr.md
+          - github/calibre-web-automated.md
+          - github/celestial-codex.md
+          - github/duplex.md
+          - github/fractal-explorer.md
+          - github/jellyfin.md
+          - github/kometa-config.md
+          - github/ollama.md
+          - github/paperless-ngx.md
+          - github/plundarr.md
+          - github/portainer.md
+          - github/privateerr.md
+          - github/raytracer.md
+          - github/scripts.md
   - Hosting:
       - hosting/index.md
       - Ultimate House Sitting Guide: hosting/ultimate-house-sitting-guide.md

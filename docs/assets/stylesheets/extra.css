@@ -279,3 +279,12 @@ body[data-md-color-scheme="default"] {
 .md-tabs__link {
     transform: translateZ(0);
 }
+
+[data-md-color-scheme="default"] .md-content,
+[data-md-color-scheme="slate"] .md-content {
+    background-color: hsla(0, 0%, 100%, 0.08);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
