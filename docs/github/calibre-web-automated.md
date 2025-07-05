@@ -6,59 +6,31 @@ icon: material/book-open-variant
 
 # 📚 Calibre Web Automated
 
-> “To read without order is to dine without table or chair.” – *Whitt & Folio*
+> “It is a truth universally acknowledged, that a reader in possession of a large eBook collection, must be in want of a proper library.”
 
-Welcome, dear reader, to a most distinguished Docker Compose configuration—one designed to bring civility and grace to your unruly eBook collection. Whether your digital shelves groan under the weight of Gothic thrillers or slightly scandalous fanfiction, **Calibre Web Automated** ensures every volume finds its proper place.
+Dear gentleperson,
 
-## ✨ About This Repository
+Pray allow me to introduce **Calibre Web Automated**—a most elegant arrangement of software, bestowed upon the modern bibliophile to render their electronic tomes in perfect order and splendour. Where once there was chaos—files named “FinalFinal2.epub” strewn across devices—now arises a sanctuary of civility, wherein metadata shines and series are aligned as surely as carriages at a country ball.
 
-This project deploys **Calibre Web Automated** using Docker Compose on Synology NAS or similar Docker-friendly estates. It integrates ingestion, curation, and serving of eBooks, all wrapped in automation and adorned with elegance.
+## 💫 A Most Suitable Match
 
-Peruse the source here: [GitHub](https://github.com/scottgigawatt/calibre-web-automated)
+Whether your tastes incline toward swashbuckling fantasy, scandalous regency romances, or the occasional disreputable vampire memoir, this arrangement offers the promise of:
 
-Special thanks to [Marius Hosting](https://mariushosting.com/how-to-install-calibre-web-automated-on-your-synology-nas) for their original setup guide—a lantern in the stacks.
+- Impeccably catalogued volumes—each more handsomely adorned than the last.
+- A refined user interface, suitable for both the drawing room and the dark parlour.
+- Automated processes so genteel, one scarcely need lift a gloved finger.
 
-## 🪞 What's Included
+Indeed, should Lady Catherine de Bourgh herself desire access to the archives, one might confidently offer her a tablet and say, “Browse at your leisure, madam.”
 
-| Apparatus                    | Description                                                                 | Reference |
-|------------------------------|-----------------------------------------------------------------------------|-----------|
-| **Calibre Web Automated** 📘 | A Docker-based deployment for ingesting and displaying your library online. | [GitHub](https://github.com/crocodilestick/calibre-web-automated) |
+## 🛋️ Esteemed in All the Best Circles
 
-## 🚀 Installation
+From the salons of macOS to the vast estates of Synology NAS, **Calibre Web Automated** has earned distinction amongst those of excellent reading habits and impeccable taste. It has been whispered (though never confirmed) that even Mr. Darcy himself employs it to manage his extensive collection of gothic poetry and botanical monographs.
 
-```bash
-git clone https://github.com/scottgigawatt/calibre-web-automated.git /volume1/docker/calibre-web-automated
-cp example.env .env
-vim .env
-docker compose up -d
-```
+## 📖 An Invitation to Curiosity
 
-Manual overrides are permitted for those inclined to live dangerously:
+If, dear reader, you find your heart stirred and your curiosity piqued, you are most cordially invited to promenade through the [Calibre Web Automated Repository](https://github.com/scottgigawatt/calibre-web-automated), where further marvels await.
 
-```bash
-CWA_TAG="latest" docker compose up -d
-```
+May your libraries be vast and your metadata ever correct.
 
-## 👒 Guidance and Rituals
-
-Consult the sacred [Setup Guide](./SETUP.md) before embarking. Topics include:
-
-- Docker networking and volume management
-- Synology firewall and container setup
-- Rituals for deploying with Container Manager
-
-To skip it is to tempt literary chaos.
-
-## 🪡 Confirmed Reading Rooms
-
-Tested on:
-
-- Synology DS1522+ and DS916+
-- DSM 7.2
-- macOS + Docker Desktop
-
-If your estate supports Docker, this library shall thrive.
-
-## 📖 License of Gentlefolk
-
-Licensed under Apache 2.0. Forks, pull requests, and literary annotations most welcome.
+Yours in bibliophilic affection,
+**Calibre Web Automated**

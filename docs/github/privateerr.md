@@ -6,39 +6,29 @@ icon: material/anchor
 
 # ⚓️ Privateerr ☠️
 
-Avast ye! Welcome aboard **Privateerr**, where Docker meets WireGuard in a glorious tangle of shell scripts, submodules, and seafaring VPN swagger.
+Ahoy, ye internet marauders! Welcome aboard **Privateerr**, the VPN vessel built for those who fancy their packets private and their connections cloaked in mystery. If yer browsing habits be nobody's business but yer own, you've dropped anchor in the right port.
 
-## 🏴‍☠️ What's This Then?
+## 🏴‍☠️ The Ship’s Purpose
 
-Privateerr be a devilishly clever containerized setup that builds and runs **Private Internet Access (PIA)** with WireGuard in tow. With it, ye generate a secure VPN config from scratch using only Docker, a `.env` file, and the salty determination of a seasoned deckhand.
+Privateerr be a dockerized contraption for conjuring up a stealthy VPN connection using **Private Internet Access (PIA)** and **WireGuard**. It brews up secure configs, keeps yer network traffic sailing the high seas unseen, and makes your Synology or macOS system the digital equivalent of a ghost ship.
 
-At its heart lies a make-powered build system, a submodule of PIA's [manual-connections](https://github.com/pia-foss/manual-connections), and enough flags to sink a firewall.
+## 🔧 Built Like a Bloody Warship
 
-Ye can inspect the full code o' conduct at [GitHub](https://github.com/scottgigawatt/privateerr).
+- Brewed from submodules and shell scripts more tangled than Davy Jones’ beard
+- Commands handled by a `Makefile` so slick, it practically swabs the deck for you
+- Tested in the rough waters of NAS and the foggy coasts of macOS
+- Keeps yer secrets stashed tight—nary a bit leaks from this hull
 
-## 🔧 Capabilities Fit for a Captain
+## 🦜 Life Aboard
 
-- ⚙️ Custom Docker image for WireGuard & PIA
-- 🗺️ Auto-generates a `wg0.conf` config file
-- 🧪 Tested on Synology and macOS waters
-- 🐚 Powered by Makefile targets for simple sailing
-- 🛠️ Modular with `.env` for personalized swashbuckling
-- ☁️ Ready for Gluetun and similar VPN containers
+Forget manual setup. With Privateerr, you shout `make up`, and the whole blasted thing hoists itself into motion like a crew o’ loyal deckhands.
 
-## 🦜 Commands for Scallywags
+Ye want logs? Aye. Secrets? Guarded like buried treasure. Configs? Generated on the spot. This be VPN seafaring with style.
 
-Use the `Makefile` to:
+## ☠️ Ye Be Warned
 
-- `make build` – Build yer VPN image
-- `make pia-creds` – Provide yer secrets
-- `make up` – Set sail
-- `make logs` – Read the ship's log
-- `make help` – When the fog gets thick
-
-## ⚠️ Mind the Kraken
-
-Privateerr works best on Synology NAS and modern macOS shores, but other seas may hold strange beasts. Backup yer `.env`, protect yer `wg0.conf`, and never let your secrets fall into the hands of rival crews.
+Just because Privateerr runs like the wind on yer Synology schooner or Mac dinghy don’t mean it'll play nice in uncharted waters. Some ports may hide monsters. Always back up yer `.env`, guard yer `wg0.conf`, and don’t let Google catch wind of yer course.
 
 ---
 
-☠️ *Adventure Awaits, Treasure Beckons. Fork if ye dare.* 🏴‍☠️
+🏴‍☠️ *Sail quiet. Sail clever. And may your packets always be encrypted and your logs forever lost at sea.* ⚓️
