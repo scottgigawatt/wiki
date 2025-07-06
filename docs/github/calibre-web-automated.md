@@ -34,3 +34,21 @@ May your libraries be vast and your metadata ever correct.
 
 Yours in bibliophilic affection,
 **Calibre Web Automated**
+
+## 📦 A Correspondence with the Kubota
+
+It has come to our attention—through the most delicate of whispers in the reading room—that many gentlefolk wish to unite their beloved **Kubota** (an agricultural eReader of unusual stubbornness) with the esteemed library of **Calibre Web Automated**. Allow me to furnish you with the method, lest your novels languish in obscurity.
+
+### 📜 The Method, in Five Sentences and a Gentle Cough
+
+1. First, summon your **Kubota reader** from wherever it lies charging (or sulking) and ensure it is connected to the household Wi-Fi. The Kubota is nothing if not fastidious about signal strength.
+2. Within the browser of the Kubota (yes, dear reader, it *does* possess one, albeit with all the elegance of a Regency footman in galoshes), direct it to your Calibre Web's parlour address—something dreadfully numerical like `http://192.168.1.42:8213`, or whatever direction your household butler (i.e., network administrator) has so graciously provided.
+3. Upon arrival, sign in with your most trusted credentials. Should you forget them, simply throw a fainting couch at the nearest administrator.
+4. Once inside, you may browse, filter, and *download* books directly to the Kubota, which will act as if it invented literature itself.
+5. At this point, the Kubota may request a restart, a séance, or a brief conversation with Mr. Bingley—do indulge it patiently.
+
+### 🪙 A Note of Gratitude (and Caution)
+
+While the **Kubota reader** may appear ornery and temperamental, it is in fact merely aristocratic in temperament. With patience, your novels shall flow to it as surely as gossip to a drawing room. Should it misbehave, threaten it with a Kindle.
+
+May your Wi-Fi be stable, and your Kubota ever humble.
