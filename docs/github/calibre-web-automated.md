@@ -52,3 +52,22 @@ It has come to our attention—through the most delicate of whispers in the read
 While the **Kubota reader** may appear ornery and temperamental, it is in fact merely aristocratic in temperament. With patience, your novels shall flow to it as surely as gossip to a drawing room. Should it misbehave, threaten it with a Kindle.
 
 May your Wi-Fi be stable, and your Kubota ever humble.
+
+## 🍏 For Those Without a Kubota—A Dispatch to iOS Society
+
+It would be most unjust to forget our dear cousins in the House of iOS—those refined gentlefolk who possess not a Kubota, but rather a gilded device bearing fruit. To them we say: fret not, for there exists a most worthy companion app known as **Yomu**.
+
+### 🍵 The Apple-Approved Approach
+
+With elegance befitting a drawing room in Bath, the **Yomu** app allows one to connect directly to Calibre Web Automated and peruse their collection with grace and minimal affront.
+
+To begin your journey:
+
+1. Install [**Yomu from the App Store**](https://apps.apple.com/us/app/yomu-ebook-reader/id562211012).
+2. Within the app, choose to add a new library, and select **OPDS Catalog**.
+3. Enter the parlour address of your CWA deployment (e.g., `http://192.168.1.42:8213/opds`), along with your credentials.
+4. Voilà! Your volumes shall appear, and you may download them to your iDevice for solitary reading under a tree, on a train, or in the scandalous privacy of your own bedchamber.
+
+Should you wish to match your Kubota-owning peers in bravado, you may even declare: “I prefer Yomu—it does not sulk when the Wi-Fi trembles.”
+
+Carry on, dear reader. The library welcomes all.
