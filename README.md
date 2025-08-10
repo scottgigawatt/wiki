@@ -1,3 +1,29 @@
+<hr />
+
+<p align="center">
+  <em>🌌 Star this repo — unlock the cosmic codex and map the constellations of forbidden knowledge.</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/license/scottgigawatt/wiki?label=Celestial%20Charter&color=blue" alt="License" />
+  <img src="https://img.shields.io/github/last-commit/scottgigawatt/wiki?label=Last%20Star%20Chart&logo=git&color=green" alt="Last Commit" />
+  <img src="https://img.shields.io/github/repo-size/scottgigawatt/wiki?label=Archive%20Mass&color=orange" alt="Repo Size" />
+</p>
+
+<p align="center">─── ⛧ ───</p>
+
+<p align="center">
+    <em>⚡ Lost in the labyrinth or seeking the Oracle? Cross the River Styx and <strong>Enter 🔥HADES🔥</strong>.</em>
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/BpEGzWwGYf">
+    <img src="https://img.shields.io/discord/1403601106315116626?label=%F0%9F%94%A5HADES%F0%9F%94%A5&logo=discord&logoColor=white&color=5865F2" alt="🔥HADES🔥 Discord" />
+  </a>
+</p>
+
+<hr />
+
 # Synology Wiki
 
 Welcome to the Synology Wiki! This repository serves as a centralized reference for my Synology setup and configuration, with a focus on Plex Media Server and various Plex maintenance utilities.
